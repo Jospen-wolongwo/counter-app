@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  value = 0;
+  value:number = 0;
   addFunction(){
     if(this.value < 10){
     this.value++;
